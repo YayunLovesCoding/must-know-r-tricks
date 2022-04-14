@@ -6,5 +6,4 @@
 https://stackoverflow.com/questions/63662697/calculate-rolling-sum-by-group
 - common scripts/functions:
 getwd(): check current working directory
-
-Comment multiple lines: Ctrl + Shift + C
+- Comment multiple lines: Ctrl + Shift + C
