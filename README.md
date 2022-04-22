@@ -7,7 +7,8 @@ https://stackoverflow.com/questions/63662697/calculate-rolling-sum-by-group
 - common scripts/functions:
 getwd(): check current working directory
 - Comment multiple lines: Ctrl + Shift + C
-- x <- c(“d”, “a”, “c”, “abba”)
+- Pattern matching looks for a given pattern in data
+  x <- c(“d”, “a”, “c”, “abba”)
   grepl(“a”, x)
   [1] FALSE  TRUE FALSE  TRUE
 
