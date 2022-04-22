@@ -7,3 +7,19 @@ https://stackoverflow.com/questions/63662697/calculate-rolling-sum-by-group
 - common scripts/functions:
 getwd(): check current working directory
 - Comment multiple lines: Ctrl + Shift + C
+- x <- c(“d”, “a”, “c”, “abba”)
+grepl(“a”, x)
+[1] FALSE  TRUE FALSE  TRUE
+
+x <- c(“d”, “a”, “c”, “abba”)
+
+grep(“a”, x)
+
+[1] 2 4
+
+
+pattern <- “ab[0-9]”
+
+strings <- c(‘ab9’, ‘ab’, ‘abc8’, ‘abc’, ‘ab1’)
+
+print (grepl(pattern, strings))
